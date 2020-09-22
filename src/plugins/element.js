@@ -17,7 +17,9 @@ import {
   Option,
   Message,
   MessageBox,
-  Card
+  Card,
+  Row,
+  Col
 } from 'element-ui'
 
 Vue.use(Button)
@@ -36,5 +38,7 @@ Vue.use(DatePicker)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm

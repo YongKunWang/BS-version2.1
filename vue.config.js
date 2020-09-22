@@ -1,6 +1,10 @@
 module.exports = {
   devServer: {
-    port: 8999,
-    open: true
-  }
+    port: 9001,
+    open: true,
+    host: '0.0.0.0',
+    disableHostCheck: true
+  },
+  outputDir: 'dist',
+  lintOnSave: true
 }

@@ -1,6 +1,7 @@
 <!--
   登录表单组件
-  2020-09-01 09:53:50
+  完成时间: 2020年09月22日10:23:16
+  完成状态
 -->
 <template>
   <div class="login-container">
@@ -61,15 +62,15 @@ export default {
   methods: {
     submitForm () {
       this.$refs.loginFormRef.validate(async (valid) => {
-        // if (!valid) return
-        // const { data: res } = await this.$http.post('item/login', this.loginForm)
-        // // console.log(res)
-        // if (res.meta.status !== 1000) {
-        //   return this.$message.warning(`${res.meta.msg},登录失败`)
-        // }
-        // this.$message.success('登录成功')
-        // // 这里需要添加一个token 后端是在最后实现的！
-        // // window.sessionStorage.setItem('token', res.data.token)
+        if (!valid) return
+        const { data: res } = await this.$http.post('/login/sign-in', this.loginForm)
+        // console.log(res)
+        if (res.meta.status !== 1000) {
+          return this.$message.warning(`${res.meta.msg},登录失败`)
+        }
+        this.$message.success('登录成功')
+        // 这里需要添加一个token 后端是在最后实现的！
+        // window.sessionStorage.setItem('token', res.data.token)
 
         this.$router.push('/home')
       })

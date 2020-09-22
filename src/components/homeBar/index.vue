@@ -17,7 +17,7 @@
         <div class="row-colum">
           <el-card shadow="hover">
             <div class="title">预警状态</div>
-            <div class="content">正常</div>
+            <div class="content warning">异常</div>
           </el-card>
         </div>
       </div>
@@ -37,7 +37,7 @@
         <div class="row-colum">
           <el-card shadow="hover">
             <div class="title">预警状态</div>
-            <div class="content">正常</div>
+            <div class="content warning">异常</div>
           </el-card>
         </div>
       </div>
@@ -77,6 +77,9 @@ export default {
     color:#00A8FE;
     font-size: 18px;
     font-weight: 600;
+  }
+  .warning {
+    color: red;
   }
 }
 </style>

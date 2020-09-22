@@ -12,6 +12,9 @@ import monitorSeamless from './monitorSeamless'
 import monitorBar from './monitorBar'
 import monitorDialog from './monitorDialog'
 import monitorTable from './monitorTable'
+import historySearch from './historySearch'
+import historyBody from './historyBody'
+import historyTable from './historyTable'
 const components = {
   bgLogin,
   loginForm,
@@ -26,7 +29,10 @@ const components = {
   monitorSeamless,
   monitorBar,
   monitorDialog,
-  monitorTable
+  monitorTable,
+  historySearch,
+  historyBody,
+  historyTable
 }
 
 // 组件安装

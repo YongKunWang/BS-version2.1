@@ -31,12 +31,12 @@ export default {
   data () {
     return {
       preData: {
-        title: '原始图像-「大屏监控」',
-        url: require('../../assets/imgs/home/4851.jpg')
+        title: '西门-10号口-原始图像-「大屏监控」',
+        url: require('../../assets/imgs/home/1.jpg')
       },
       afterData: {
-        title: '识别图像-「大屏监控」',
-        url: require('../../assets/imgs/home/4851.jpg')
+        title: '西门-10号口-识别图像-「大屏监控」',
+        url: require('../../assets/imgs/home/image1.jpg')
       },
       warnData: [
         {
@@ -140,9 +140,29 @@ export default {
           { value: 10, status: '正常', info: '无' },
           { value: 10, status: '正常', info: '无' },
           { value: 10, status: '正常', info: '无' },
+          { value: 20, status: '异常', info: '油污' },
+          { value: 10, status: '正常', info: '无' },
+          { value: 10, status: '正常', info: '无' },
+          { value: 10, status: '正常', info: '无' },
+          { value: 20, status: '异常', info: '油污' },
+          { value: 10, status: '正常', info: '无' },
+          { value: 10, status: '正常', info: '无' },
+          { value: 10, status: '正常', info: '无' },
+          { value: 10, status: '正常', info: '无' },
+          { value: 10, status: '正常', info: '无' },
           { value: 20, status: '异常', info: '油污' }
         ],
         yData2: [
+          { value: -10, status: '无需处理' },
+          { value: -10, status: '无需处理' },
+          { value: -10, status: '无需处理' },
+          { value: -20, status: '已经处理' },
+          { value: -10, status: '无需处理' },
+          { value: -10, status: '无需处理' },
+          { value: -10, status: '无需处理' },
+          { value: -10, status: '无需处理' },
+          { value: -10, status: '无需处理' },
+          { value: -30, status: '未经处理' },
           { value: -10, status: '无需处理' },
           { value: -10, status: '无需处理' },
           { value: -10, status: '无需处理' },

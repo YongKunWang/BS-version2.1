@@ -29,7 +29,8 @@ Vue.prototype.$echarts = echarts
 Vue.use(myComponent)
 
 // 设置axios的基地址
-axios.defaults.baseURL = 'http://api.baosteel.com/api/'
+// 后端请求地址
+axios.defaults.baseURL = 'http://api.baosteel.com/api/v1'
 // 挂载到vue的原型对象上
 Vue.prototype.$http = axios
 // 全局注册粒子效果

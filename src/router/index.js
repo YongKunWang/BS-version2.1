@@ -5,7 +5,8 @@ import Login from '../views/Login'
 import Home from '../views/Home'
 import Monitor from '../views/Monitor'
 import MonitorTen from '../views/monitor/MonitorTen'
-
+import History from '../views/History'
+import OverView from '../views/history/Overview'
 Vue.use(VueRouter)
 
 const originalPush = VueRouter.prototype.push
@@ -23,6 +24,14 @@ const routes = [
     redirect: '/monitor/10',
     children: [
       { path: '/monitor/10', component: MonitorTen }
+    ]
+  },
+  {
+    path: '/history',
+    component: History,
+    redirect: '/history/overview',
+    children: [
+      { path: '/history/overview', component: OverView }
     ]
   }
 ]

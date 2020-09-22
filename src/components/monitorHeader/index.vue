@@ -14,12 +14,12 @@
             <span class="iconfont bsDots"></span>
             <span>&nbsp;&nbsp;数据概览</span>
           </el-menu-item>
-          <el-submenu index="./10">
+          <el-submenu index="/monitor">
             <template slot="title">
               <span class="iconfont bsjiankong"></span>
               <span>&nbsp;&nbsp;监控详情</span>
             </template>
-            <el-menu-item index="./10">
+            <el-menu-item index="/monitor/10">
               <span class="iconfont bsjiankong"></span>
               <span>&nbsp;&nbsp;10号口监控</span>
             </el-menu-item>
@@ -52,13 +52,18 @@
           background-color="#030928"
           text-color="#fff"
           active-text-color="#ffd04b"
+          router
         >
-          <el-submenu index="10">
+          <el-submenu index="/history">
             <template slot="title">
               <span class="iconfont bslishishuju1"></span>
               <span>&nbsp;&nbsp;历史数据</span>
             </template>
-            <el-menu-item index="10">
+            <el-menu-item index="/history/overview">
+              <span class="iconfont bsjiankong"></span>
+              <span>&nbsp;&nbsp;总数据分析</span>
+            </el-menu-item>
+            <el-menu-item index="/home">
               <span class="iconfont bsjiankong"></span>
               <span>&nbsp;&nbsp;10号口数据</span>
             </el-menu-item>

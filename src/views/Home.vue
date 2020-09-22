@@ -61,37 +61,37 @@ export default {
           id: 11,
           title: '西门 - 11号口监控详情',
           // 要注意：asset的文件需要require
-          preurl: require('../assets/imgs/home/4851.jpg'),
+          preurl: require('../assets/imgs/home/1.jpg'),
           status: true
         },
         {
           id: 12,
           title: '西门 - 12号口监控详情',
           // 要注意：asset的文件需要require
-          preurl: require('../assets/imgs/home/4851.jpg'),
+          preurl: require('../assets/imgs/home/120.jpg'),
           status: false
         }
       ],
       monitorDataRight: [
         {
           id: 10,
-          title: '西门 - 10号口监控详情',
+          title: '东门 - 10号口监控详情',
           // 要注意：asset的文件需要require
           preurl: require('../assets/imgs/home/4851.jpg'),
           status: true
         },
         {
           id: 11,
-          title: '西门 - 11号口监控详情',
+          title: '东门 - 11号口监控详情',
           // 要注意：asset的文件需要require
-          preurl: require('../assets/imgs/home/4851.jpg'),
+          preurl: require('../assets/imgs/home/1.jpg'),
           status: true
         },
         {
           id: 12,
-          title: '西门 - 12号口监控详情',
+          title: '东门 - 12号口监控详情',
           // 要注意：asset的文件需要require
-          preurl: require('../assets/imgs/home/4851.jpg'),
+          preurl: require('../assets/imgs/home/120.jpg'),
           status: false
         }
       ],
@@ -100,7 +100,7 @@ export default {
         dealData: '000010'
       },
       panelTitleData: {
-        title: '大屏监控111',
+        title: '东门 - 10号口大屏监控',
         afterurl: require('../assets/imgs/home/4851.jpg')
       },
       myroute: './monitor'
